@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color of paragraph</title>
+</head>
+<body>
+    <!-- rgb(red, green, blue) -->
+Red: <input type="range" name="" id="red" min="0" max="255" step="1" value="100" onchange="changecolor()" />
+<br><br>
+Green: <input type="range" name="" id="green" min="0" max="255" step="1" value="100" onchange="changecolor()" />
+<br><br>
+Blue: <input type="range" name="" id="blue" min="0" max="255" step="1" value="100" onchange="changecolor()" />
+<p style="font-size: 25px" id="p1"> <b>
+    Change the 3 Color Ranges above and observe my color Change 
+</b></p>
+<script>
+            function changecolor(){
+                var text = document.getElementById("p1")
+                var red_color = document.getElementById("red").value;
+                var green_color = document.getElementById("green").value;
+                var blue_color = document.getElementById("blue").value;
+                text.style.color = `rgb(
+                ${red_color},${green_color},${blue_color})`
+            }
+</script>
+</body>
+</html>
