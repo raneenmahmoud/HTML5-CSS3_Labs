@@ -1,0 +1,76 @@
+@media (min-width :400px){/*min 400 to reach this style at least 400 from 400 to last*/
+.Cointainer{
+    display: grid;
+    grid-template-areas: 
+    "header header header "/*first row*/
+    "sidenav maincontent sidebar" /*second row*/
+    "footer footer footer" /*last row*/;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    gap: 6px;
+ }
+ .Cointainer > div{
+    padding-top: 6%;
+    
+}
+.Cointainer .child1{
+   background-color: rgb(116, 116, 188);
+   grid-area: header;
+}
+.Cointainer .child2{
+    background-color: rgb(215, 120, 57);
+    grid-area: sidenav;
+ }
+ .Cointainer .child3{
+    background-color: rgb(79, 197, 58);
+    grid-area: maincontent;
+ }
+ .Cointainer .child4{
+     background-color: rgb(215, 120, 57);
+     grid-area: sidebar;
+  }
+  .Cointainer .child5{
+    background-color: rgb(116, 116, 188);
+    grid-area: footer;
+ }
+}
+@media (max-width:401px){ /*max 400 to reach this style atmost 400 from 0 to 400*/
+    .Cointainer{
+        display: grid;
+        grid-template-areas: 
+        "header  "/*first row*/
+        "sidenav "
+        "maincontent"
+         "sidebar" /*second row*/
+        "footer " /*last row*/;
+        height: 80vh;
+        text-align: center;
+        color: white;
+        gap: 6px;
+     }
+     .Cointainer > div{
+        padding-top: 6%;
+        
+    }
+    .Cointainer .child1{
+       background-color: rgb(116, 116, 188);
+       grid-area: header;
+    }
+    .Cointainer .child2{
+        background-color: rgb(215, 120, 57);
+        grid-area: sidenav;
+     }
+     .Cointainer .child3{
+        background-color: rgb(79, 197, 58);
+        grid-area: maincontent;
+     }
+     .Cointainer .child4{
+         background-color: rgb(215, 120, 57);
+         grid-area: sidebar;
+      }
+      .Cointainer .child5{
+        background-color: rgb(116, 116, 188);
+        grid-area: footer;
+     }
+    }

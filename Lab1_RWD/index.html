@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  box-sizing: border-box;
+  background-image: url("style/image/index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.sub_container {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.Container {
+    /* margin: 8px  ; */
+    height: 50%;
+    display: flex;
+justify-content: center;}
+/* Responsive columns */
+@media (max-width: 400px) {
+  .sub_container {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+.card {
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin: 20%;
+  font-size: 25px;
+  background-color: #f1f1f1;
+  height: 100%;
+  transition-duration: 0.4s;
+  border-radius: 25px;
+  transition: transform .2s;
+}
+.card:hover{
+    /* -ms-transform: scale(1.5); IE 9 */
+  /* -webkit-transform: scale(1.5); Safari 3-8 */
+    transform: scale(1.2); 
+    box-shadow:  0 18px 10px 0 rgba(0,0,0,0.24),0 10px 50px 0 rgba(0,0,0,0.19);
+}
+
+button{
+  background-color: rgb(240, 239, 174);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  box-shadow:  0 18px 10px 0 rgba(0,0,0,0.24),0 10px 50px 0 rgba(0,0,0,0.19);
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1 style="font-size: 50px;color: white;">Responsive web development</h1>
+
+<div class="Container">
+  
+  <div class="sub_container">
+    <div class="card">
+        <h1>FLEX</h1> 
+        <p>Flex by media query</p>
+        <button><a href="flex1.html">Task1</a></button>
+        <br><br>
+        <button><a href="flex2.html">Task2</a></button>
+    </div>
+  </div>
+
+  <div class="sub_container">
+    <div class="card">
+        <h1>GRID</h1> 
+        <p>Grid by media query</p>
+        <button><a href="grid.html">Task1</a></button>
+        <br><br>
+    </div>
+  </div>
+  
+
+</body>
+</html>

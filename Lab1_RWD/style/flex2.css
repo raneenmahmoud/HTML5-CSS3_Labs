@@ -1,0 +1,14 @@
+.Container{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+}
+.Sub_Container_item{
+    border: 2px solid orange;
+    display: flex;
+    text-align: left;
+    height: 10vh;
+    width: 20%;
+}

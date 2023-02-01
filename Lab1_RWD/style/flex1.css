@@ -1,0 +1,87 @@
+@media (min-width :400.1px){/*min 400.1 to reach this style at least 400.1 from 400.1 to last*/
+.Container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+      nav {
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      a{
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+      }
+      .Sub_Container{
+        display: flex;
+    }
+    .Sub_Container > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid black;
+      margin: 10px;
+      gap: 10px;
+      text-align: center;
+      font-size: 30px;
+    }
+      .Sub_Container_left{
+        width: 50%;
+      }
+      .Sub_Container_right{
+        width: 50%;
+      }
+      .footer{
+        background-color: rgb(226, 226, 226);
+      }
+    }
+@media (max-width :400px){/*min 400 to reach this style at least 400 from 400 to last*/
+  .Container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  nav {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .Sub_Container{
+    display: flex;
+    flex-direction: column;
+}
+.Sub_Container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px;
+  gap: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+  .Sub_Container_left{
+    width: 50%;
+  }
+  .Sub_Container_right{
+    width: 50%;
+  }
+  .footer{
+    background-color: rgb(226, 226, 226);
+  }
+}
