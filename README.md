@@ -2,17 +2,17 @@
 # Lab 1 Video
 https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/video.html
 # Lab 1 RGB
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/RGB.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/RGB.html
 # Lab 1 Line ended
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/lineended.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/lineended.html
 # Lab 1 animation
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/animation.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/animation.html
 # Lab 1 fade
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/fade.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/fade.html
 # Lab 1 Form
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Form.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/Form.html
 # Lab 1 Triangle
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Triangle.html
+https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/Triangle.html
 
 
 
