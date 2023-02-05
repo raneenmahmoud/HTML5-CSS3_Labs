@@ -2,7 +2,7 @@
 # Lab 1 Video
 https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/video.html
 # Lab 1 RGB
-https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/RGB.html
+
 # Lab 1 Line ended
 https://raneenmahmoud.github.io/HTML5-CSS3_Labs/Lab1/lineended.html
 # Lab 1 animation
